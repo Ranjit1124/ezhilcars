@@ -116,7 +116,7 @@ function handleImagePopup(index) {
     </section>
 
     <!-- Image Popup -->
-    <CoommonImagePopup ref="image_popup" :images="portfolio_data.map((item) => item.img)" />
+    <CommonImagePopup ref="image_popup" :images="portfolio_data.map((item) => item.img)" />
   </div>
 </template>
 
