@@ -37,7 +37,7 @@ const props = defineProps({
 });
 
 import { ref } from "vue";
-import ImagePopup from "~/components/common/ImagePopup.vue";
+import ImagePopup from "~/components/common/Imagepopup.vue";
 import "vue-easy-lightbox/external-css/vue-easy-lightbox.css";
 
 const image_popup = ref(null);
@@ -116,7 +116,7 @@ function handleImagePopup(index) {
     </section>
 
     <!-- Image Popup -->
-    <!-- <ImagePopup ref="image_popup" :images="portfolio_data.map((item) => item.img)" /> -->
+    <ImagePopup ref="image_popup" :images="portfolio_data.map((item) => item.img)" />
   </div>
 </template>
 
