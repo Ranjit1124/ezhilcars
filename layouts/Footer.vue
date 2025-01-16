@@ -14,7 +14,7 @@
             </div>
             <div class="col-lg-6">
               <div class="copyright-text extra-copyright">
-                <p>Crafted with ❤️ Ezhil Cars</p>
+                <p>Crafted with ❤️ <a href="https://www.linkedin.com/in/ranjitpr08/" target="_blank">Ranjit</a></p>
               </div>
             </div>
           </div>
